@@ -1,0 +1,39 @@
+body{
+  text-align:center;
+}
+
+.button{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.button-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+#view{
+  height: 300px;
+  width: 600px;
+  border: none;
+}
+
+#red{
+  background-color: red;
+}
+#blue{
+  background-color: blue;
+}
+#yellow{
+  background-color: yellow;
+}
+#green{
+  background-color: green;
+}
+#black{
+  background-color: black;
+}
