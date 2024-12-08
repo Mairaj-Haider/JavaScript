@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="buttons-container">
+    <input type="display" readonly id="display-screen" placeholder="0">
+    <div class="buttons">
+    <button class="button" id="p-button" onclick="display_value = display_value + '('
+      document.querySelector('#display-screen').value = display_value;">(</button>
+    <button class="button" id="ce-button" onclick="display_value = display_value + ')'
+      document.querySelector('#display-screen').value = display_value;">)</button>
+    <button class="button" id="root-button" onclick="
+    let sqr = Math.sqrt(display_value);
+    display_value = sqr;
+    document.querySelector('#display-screen').value = display_value;
+    ">√=</button>
+    <button class="button" id="c-button"  onclick="display_value = ''
+      document.querySelector('#display-screen').value = display_value;">C</button>
+    <button class="button"  onclick="display_value = display_value + '7'
+      document.querySelector('#display-screen').value = display_value;">7</button>
+    <button class="button"  onclick="display_value = display_value + '8'
+      document.querySelector('#display-screen').value = display_value;">8</button>
+    <button class="button"  onclick="display_value = display_value + '9'
+      document.querySelector('#display-screen').value = display_value;">9</button>
+    <button class="button" id="minus-button"  onclick="display_value = display_value + '-'
+      document.querySelector('#display-screen').value = display_value;">-</button>
+    <button class="button"  onclick="display_value = display_value + '4'
+      document.querySelector('#display-screen').value = display_value;">4</button>
+    <button class="button"  onclick="display_value = display_value + '5'
+      document.querySelector('#display-screen').value = display_value;">5</button>
+    <button class="button"  onclick="display_value = display_value + '6'
+      document.querySelector('#display-screen').value = display_value;">6</button>
+    <button class="button" id="divide-button"  onclick="display_value = display_value + '/'
+      document.querySelector('#display-screen').value = display_value;">÷</button>
+    <button class="button" onclick="display_value = display_value + '1'
+      document.querySelector('#display-screen').value = display_value;">1</button>
+    <button class="button"  onclick="display_value = display_value + '2'
+      document.querySelector('#display-screen').value = display_value;">2</button>
+    <button class="button"  onclick="display_value = display_value + '3'
+      document.querySelector('#display-screen').value = display_value;">3</button>
+    <button class="button" id="product-button"  onclick="display_value = display_value + '*'
+      document.querySelector('#display-screen').value = display_value;">x</button>
+    <button class="button"  onclick="display_value = display_value + '.'
+      document.querySelector('#display-screen').value = display_value;">.</button>
+    <button class="button"  onclick="display_value = display_value + '0'
+      document.querySelector('#display-screen').value = display_value;">0</button>
+    <button class="button" id="equal-button" onclick="
+    let result = eval(display_value);
+    display_value = result;
+    document.querySelector('#display-screen').value = display_value;
+    ">=</button>
+    <button class="button" id="sum-button"  onclick="display_value = display_value + '+'
+      document.querySelector('#display-screen').value = display_value;">+</button></div>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
