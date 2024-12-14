@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#clock {
+  display: grid;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+#date {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-top: -60px;
+}
+
+.main-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  width: 600px;
+  background-color: rgb(48, 47, 47);
+}
