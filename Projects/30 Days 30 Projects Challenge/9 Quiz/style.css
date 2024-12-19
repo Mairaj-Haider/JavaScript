@@ -1,0 +1,47 @@
+body{
+  height: 98vh;
+  justify-content: center;
+  display: flex;
+}
+
+.main-container{
+  height: 98vh;
+  width: 100%;
+  display: block;
+  justify-items: center;
+}
+
+.questions-container{
+  border: 2px solid black;
+  display: flex;
+  justify-content: start;
+  width: 90%;
+  height: 70%;
+  margin: 10px 0 25px 0;
+}
+
+.question{
+  font-size: 20px;
+  width: 100%;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.score{
+  display: block;
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+#submit-button{
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+}
